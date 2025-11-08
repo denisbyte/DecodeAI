@@ -17,7 +17,7 @@ export class Ollama {
       model: 'stable-code:3b',
       messages: [
         {role: "system", content: "Tu est une IA capable d'expliquer du code simplement et clairement "},
-        {role: 'user', content:`Explique le code:\n${code} suivant dans ce langage de programmation ${code}`}
+        {role: 'user', content:`Explication du code:\n${code} suivant dans ce langage de programmation ${langage}`}
 
       ]
     };
